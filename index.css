@@ -8,10 +8,12 @@ body {
 
 p {
   margin-block-start: var(--metric-box-spacing);
+  text-justify: auto;
 }
 
 h1 {
   margin-block-end: var(--metric-box-spacing);
+  color:rgb(84, 89, 89);
 }
 
 header,
@@ -51,4 +53,17 @@ footer {
   background-color: var(--color-off-white);
   border-radius: var(--metric-radius);
   box-shadow: var(--generic-shadow);
+}
+
+/* Responsive */
+@media screen and (max-width: 280px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .cards h2 {
+    font-size: 1.25rem;
+  }
+  article p {
+    font-size: .75rem;
+  }
 }

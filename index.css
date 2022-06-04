@@ -57,12 +57,15 @@ footer {
 
 /* Responsive */
 @media screen and (max-width: 280px) {
+  html {
+    font-size: 90%;
+  }
   .title {
     font-size: 1.5rem;
   }
-  .cards h2 {
+  /* .cards h2 {
     font-size: 1.25rem;
-  }
+  } */
   article p {
     font-size: .75rem;
   }
